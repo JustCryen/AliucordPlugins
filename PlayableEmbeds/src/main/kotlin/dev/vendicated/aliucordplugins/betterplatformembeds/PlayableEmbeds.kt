@@ -126,6 +126,7 @@ class PlayableEmbeds : Plugin() {
                                 frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture"
                                 allowfullscreen
+                                referrerpolicy="strict-origin-when-cross-origin"
                             />
                         </div>
                     </body>
@@ -168,6 +169,7 @@ class PlayableEmbeds : Plugin() {
                             allow="encrypted-media"
                             allowtransparency
                             allowfullscreen
+                            referrerpolicy="strict-origin-when-cross-origin"
                         />
                     </body>
                 </html>
