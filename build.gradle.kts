@@ -5,8 +5,8 @@ buildscript {
     repositories {
         mavenCentral()
         maven {
-            url 'https://maven.google.com/'
-            name 'Google'
+            name = "Google"
+            url = url("https://maven.google.com/")
         }
     }
     repositories {
