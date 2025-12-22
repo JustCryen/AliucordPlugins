@@ -3,17 +3,13 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 buildscript {
     repositories {
-        mavenCentral()
-        maven("https://maven.google.com/")
-    }
-    repositories {
         google()
         mavenCentral()
         maven("https://maven.aliucord.com/snapshots")
         maven("https://jitpack.io")
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:7.6.3")
+        classpath("com.android.tools.build:gradle:7.0.4")
         classpath("com.aliucord:gradle:main-SNAPSHOT") {
             exclude("com.github.js6pak", "jadb")
         }
