@@ -1,5 +1,5 @@
 import com.android.build.gradle.BaseExtension
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+//import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 buildscript {
     repositories {
@@ -57,32 +57,33 @@ subprojects {
             targetCompatibility = JavaVersion.VERSION_11
         }
 
-        //tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
-        //    kotlinOptions {
-        //        jvmTarget = "11"
-        //        freeCompilerArgs = freeCompilerArgs + "-Xno-call-assertions" + "-Xno-param-assertions" + "-Xno-receiver-assertions"
+        tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
+            kotlinOptions {
+                jvmTarget = "11"
+                freeCompilerArgs = freeCompilerArgs + "-Xno-call-assertions" + "-Xno-param-assertions" + "-Xno-receiver-assertions"
+            }
+            //kotlinOptions.jvmTarget = "11"
+        }
+
+        //kotlin {
+        //    compilerOptions {
+        //        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
+        //        freeCompilerArgs.addAll(
+        //                "-Xno-call-assertions" ,
+        //                "-Xno-param-assertions" ,
+        //                "-Xno-receiver-assertions")
         //    }
-        //    //kotlinOptions.jvmTarget = "11"
         //}
 
-            kotlin {
-                compilerOptions {
-                    jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
-                    freeCompilerArgs.addAll(
-                            "-Xno-call-assertions" ,
-                            "-Xno-param-assertions" ,
-                            "-Xno-receiver-assertions")
-                }
-            }
-            //kotlin {
-            //    compilerOptions {
-            //        jvmTarget.set(JvmTarget.JVM_11)
-            //        freeCompilerArgs.addAll(
-            //                "-Xno-call-assertions" ,
-            //                "-Xno-param-assertions" ,
-            //                "-Xno-receiver-assertions")
-            //    }
-            //}
+        //kotlin {
+        //    compilerOptions {
+        //        jvmTarget.set(JvmTarget.JVM_11)
+        //        freeCompilerArgs.addAll(
+        //                "-Xno-call-assertions" ,
+        //                "-Xno-param-assertions" ,
+        //                "-Xno-receiver-assertions")
+        //    }
+        //}
     }
 
 
