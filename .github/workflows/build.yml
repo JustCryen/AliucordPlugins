@@ -30,11 +30,13 @@ jobs:
       with:
         java-version: 17
 
-    - name: Setup Android SDK
+    - name: Setup Android SDK # v7.0
       uses: android-actions/setup-android@v2
+      with:
+        cmdline-tools-version: 8512546
 
     - name: Setup Gradle 7.6.3
-      uses: gradle/actions/setup-gradle@v4
+      uses: gradle/actions/setup-gradle@v3
       with:
         gradle-version: 7.6.3
 
