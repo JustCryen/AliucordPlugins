@@ -30,7 +30,7 @@ jobs:
       with:
         java-version: 11
         distribution: zulu
-        cache: gradle
+        #cache: gradle
 
     - name: Setup Android SDK # v7.0
       uses: android-actions/setup-android@v2
