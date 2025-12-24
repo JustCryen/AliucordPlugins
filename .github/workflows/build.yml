@@ -33,7 +33,7 @@ jobs:
         #cache: gradle
 
     - name: Setup Android SDK # v10.0
-      uses: android-actions/setup-android@v2
+      uses: android-actions/setup-android@v2.5.0
       with:
         cmdline-tools-version: '9862592'
 
