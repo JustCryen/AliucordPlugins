@@ -1,5 +1,4 @@
 import com.android.build.gradle.BaseExtension
-//import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 buildscript {
     repositories {
@@ -14,7 +13,7 @@ buildscript {
             exclude("com.github.js6pak", "jadb")
         }
         classpath("com.aliucord:jadb:1.2.1-SNAPSHOT")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.2.0")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21")
     }
 }
 
@@ -60,32 +59,13 @@ subprojects {
         tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
             kotlinOptions {
                 jvmTarget = "11"
-                freeCompilerArgs = freeCompilerArgs + "-Xno-call-assertions" + "-Xno-param-assertions" + "-Xno-receiver-assertions"
+                freeCompilerArgs = freeCompilerArgs +
+                        "-Xno-call-assertions" +
+                        "-Xno-param-assertions" +
+                        "-Xno-receiver-assertions"
             }
-            //kotlinOptions.jvmTarget = "11"
         }
-
-        //kotlin {
-        //    compilerOptions {
-        //        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
-        //        freeCompilerArgs.addAll(
-        //                "-Xno-call-assertions" ,
-        //                "-Xno-param-assertions" ,
-        //                "-Xno-receiver-assertions")
-        //    }
-        //}
-
-        //kotlin {
-        //    compilerOptions {
-        //        jvmTarget.set(JvmTarget.JVM_11)
-        //        freeCompilerArgs.addAll(
-        //                "-Xno-call-assertions" ,
-        //                "-Xno-param-assertions" ,
-        //                "-Xno-receiver-assertions")
-        //    }
-        //}
     }
-
 
     dependencies {
         val discord by configurations
@@ -105,7 +85,3 @@ subprojects {
 task<Delete>("clean") {
     delete(rootProject.buildDir)
 }
-
-//tasks.register<Delete>("clean") {
-//    delete(rootProject.layout.buildDirectory.dir("path"))
-//}
