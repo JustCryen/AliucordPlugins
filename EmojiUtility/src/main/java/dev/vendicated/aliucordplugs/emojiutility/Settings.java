@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.emojiutility;
+package dev.justcryen.aliucordplugs.emojiutility;
 
 import android.content.Context;
 import android.content.DialogInterface;

@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-package dev.vendicated.aliucordplugs.taptap;
+package dev.justcryen.aliucordplugs.taptap;
 
 import android.content.Context;
 import android.os.Handler;

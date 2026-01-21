@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugins.betterspotify
+package dev.justcryen.aliucordplugins.betterspotify
 
 import com.aliucord.Http
 import com.aliucord.Utils
@@ -21,7 +21,7 @@ import com.discord.stores.StoreStream
 import com.discord.utilities.platform.Platform
 import com.discord.utilities.rest.RestAPI
 import com.discord.utilities.spotify.SpotifyApiClient
-import dev.vendicated.aliucordplugins.betterspotify.models.PlayerInfo
+import dev.justcryen.aliucordplugins.betterspotify.models.PlayerInfo
 import java.util.concurrent.TimeUnit
 import kotlin.math.abs
 

@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.checklinks
+package dev.justcryen.aliucordplugs.checklinks
 
 class Entry(val result: String)
 

@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugins.betterspotify.models
+package dev.justcryen.aliucordplugins.betterspotify.models
 
 class PlayerInfo(
     val progress_ms: Int,

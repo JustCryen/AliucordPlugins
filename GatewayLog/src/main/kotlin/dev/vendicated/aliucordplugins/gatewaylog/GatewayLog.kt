@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugins.gatewaylog
+package dev.justcryen.aliucordplugins.gatewaylog
 
 import android.content.Context
 import com.aliucord.Constants

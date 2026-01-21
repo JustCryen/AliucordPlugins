@@ -7,7 +7,7 @@
  * You may obtain a copy of the License at
  * http://www.apache.org/licenses/LICENSE-2.0
 */
-package dev.vendicated.aliucordplugs.urbandictionary
+package dev.justcryen.aliucordplugs.urbandictionary
 
 class ApiResponse(val list: List<Definition>) {
     data class Definition(

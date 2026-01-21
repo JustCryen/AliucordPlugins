@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.themer.settings
+package dev.justcryen.aliucordplugs.themer.settings
 
 import android.content.Context
 import android.text.method.LinkMovementMethod

@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.themer
+package dev.justcryen.aliucordplugs.themer
 
 import android.annotation.SuppressLint
 import android.content.Context

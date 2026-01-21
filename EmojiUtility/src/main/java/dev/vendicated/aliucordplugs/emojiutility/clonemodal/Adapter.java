@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.emojiutility.clonemodal;
+package dev.justcryen.aliucordplugs.emojiutility.clonemodal;
 
 import android.view.*;
 

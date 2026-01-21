@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugins.emojireplacer
+package dev.justcryen.aliucordplugins.emojireplacer
 
 import android.annotation.SuppressLint
 import android.app.DownloadManager

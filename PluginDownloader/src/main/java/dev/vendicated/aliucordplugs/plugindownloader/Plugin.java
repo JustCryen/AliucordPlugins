@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.plugindownloader;
+package dev.justcryen.aliucordplugs.plugindownloader;
 
 public class Plugin {
     public static class Info {

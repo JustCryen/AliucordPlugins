@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.themer.settings.editor.tabs.color
+package dev.justcryen.aliucordplugs.themer.settings.editor.tabs.color
 
 import android.content.Context
 import android.view.ViewGroup

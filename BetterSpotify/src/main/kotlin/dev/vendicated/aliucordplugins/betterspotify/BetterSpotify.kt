@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugins.betterspotify
+package dev.justcryen.aliucordplugins.betterspotify
 
 import android.annotation.SuppressLint
 import android.content.Context

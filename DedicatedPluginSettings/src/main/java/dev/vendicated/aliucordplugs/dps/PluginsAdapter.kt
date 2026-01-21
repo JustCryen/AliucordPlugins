@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.dps
+package dev.justcryen.aliucordplugs.dps
 
 import android.annotation.SuppressLint
 import android.content.Context

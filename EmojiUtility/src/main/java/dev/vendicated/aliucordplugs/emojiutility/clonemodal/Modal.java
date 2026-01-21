@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.emojiutility.clonemodal;
+package dev.justcryen.aliucordplugs.emojiutility.clonemodal;
 
 import android.util.Base64;
 import android.view.View;
@@ -33,7 +33,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import dev.vendicated.aliucordplugs.emojiutility.EmojiUtility;
+import dev.justcryen.aliucordplugs.emojiutility.EmojiUtility;
 
 public class Modal extends SettingsPage {
     private static final Map<Integer, Integer> emojiLimits = new HashMap<>();

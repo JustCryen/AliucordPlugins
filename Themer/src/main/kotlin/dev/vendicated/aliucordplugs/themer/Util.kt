@@ -8,10 +8,10 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.themer
+package dev.justcryen.aliucordplugs.themer
 
 import com.aliucord.api.SettingsAPI
-import dev.vendicated.aliucordplugs.themer.settings.editor.tabs.color.ColorTuple
+import dev.justcryen.aliucordplugs.themer.settings.editor.tabs.color.ColorTuple
 import org.json.JSONObject
 
 var SettingsAPI.transparencyMode

@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.themer.settings
+package dev.justcryen.aliucordplugs.themer.settings
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -31,7 +31,7 @@ import com.discord.views.RadioManager
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.snackbar.Snackbar.LENGTH_INDEFINITE
 import com.lytefast.flexinput.R
-import dev.vendicated.aliucordplugs.themer.*
+import dev.justcryen.aliucordplugs.themer.*
 import kotlin.system.exitProcess
 
 class ThemerSettings : SettingsPage() {

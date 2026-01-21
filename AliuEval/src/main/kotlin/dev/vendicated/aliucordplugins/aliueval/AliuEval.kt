@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugins.aliueval
+package dev.justcryen.aliucordplugins.aliueval
 
 import android.content.Context
 import com.aliucord.Http
@@ -34,7 +34,7 @@ class AliuEval : Plugin() {
                     it.executeWithJson(Code(code)).saveToFile(outFile)
                 }
                 val cl = DexClassLoader(outFile.absolutePath, ctx.codeCacheDir.absolutePath, null, this.javaClass.classLoader)
-                val clazz = cl.loadClass("dev.vendicated.aliucordeval.Eval")
+                val clazz = cl.loadClass("dev.justcryen.aliucordeval.Eval")
                 val instance = ReflectUtils.invokeConstructorWithArgs(clazz, patcher, settings, commands)
                 val ret = ReflectUtils.invokeMethod(instance, "main")
                 try {

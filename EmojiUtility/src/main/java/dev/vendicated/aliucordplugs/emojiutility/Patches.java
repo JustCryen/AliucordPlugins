@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-package dev.vendicated.aliucordplugs.emojiutility;
+package dev.justcryen.aliucordplugs.emojiutility;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -43,7 +43,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.concurrent.atomic.AtomicReference;
 
-import dev.vendicated.aliucordplugs.emojiutility.clonemodal.Modal;
+import dev.justcryen.aliucordplugs.emojiutility.clonemodal.Modal;
 import kotlin.Unit;
 import kotlin.jvm.functions.Function1;
 

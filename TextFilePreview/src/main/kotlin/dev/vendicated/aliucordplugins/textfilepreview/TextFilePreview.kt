@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugins.textfilepreview
+package dev.justcryen.aliucordplugins.textfilepreview
 
 import android.content.Context
 import android.view.View

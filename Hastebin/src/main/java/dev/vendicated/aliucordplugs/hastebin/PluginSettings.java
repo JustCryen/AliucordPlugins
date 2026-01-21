@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.hastebin;
+package dev.justcryen.aliucordplugs.hastebin;
 
 import android.annotation.SuppressLint;
 import android.text.Editable;

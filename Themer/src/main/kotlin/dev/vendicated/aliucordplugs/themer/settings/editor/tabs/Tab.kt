@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.themer.settings.editor.tabs
+package dev.justcryen.aliucordplugs.themer.settings.editor.tabs
 
 import android.os.Bundle
 import android.view.View

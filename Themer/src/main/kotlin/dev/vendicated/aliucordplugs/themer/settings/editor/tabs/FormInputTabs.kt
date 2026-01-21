@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.themer.settings.editor.tabs
+package dev.justcryen.aliucordplugs.themer.settings.editor.tabs
 
 import android.os.Bundle
 import android.text.Editable
@@ -18,8 +18,8 @@ import android.widget.LinearLayout
 import com.aliucord.Constants
 import com.aliucord.utils.DimenUtils
 import com.aliucord.views.TextInput
-import dev.vendicated.aliucordplugs.themer.ALLOWED_RESOURCE_DOMAINS_PATTERN
-import dev.vendicated.aliucordplugs.themer.SIMPLE_SOUND_NAMES
+import dev.justcryen.aliucordplugs.themer.ALLOWED_RESOURCE_DOMAINS_PATTERN
+import dev.justcryen.aliucordplugs.themer.SIMPLE_SOUND_NAMES
 import org.json.JSONObject
 import java.io.File
 import java.lang.reflect.Modifier

@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.themer.settings.editor.tabs.color
+package dev.justcryen.aliucordplugs.themer.settings.editor.tabs.color
 
 import android.graphics.Color
 import android.os.Bundle
@@ -24,7 +24,7 @@ import com.aliucord.utils.DimenUtils
 import com.aliucord.views.TextInput
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.lytefast.flexinput.R
-import dev.vendicated.aliucordplugs.themer.toColorArray
+import dev.justcryen.aliucordplugs.themer.toColorArray
 import org.json.JSONObject
 
 private val layoutId: Int by lazy {

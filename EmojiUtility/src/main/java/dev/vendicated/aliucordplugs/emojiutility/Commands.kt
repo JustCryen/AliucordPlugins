@@ -7,7 +7,7 @@
  * You may obtain a copy of the License at 
  * http://www.apache.org/licenses/LICENSE-2.0
 */
-package dev.vendicated.aliucordplugs.emojiutility
+package dev.justcryen.aliucordplugs.emojiutility
 
 import com.aliucord.Utils.buildClyde
 import com.aliucord.Utils.createCommandOption

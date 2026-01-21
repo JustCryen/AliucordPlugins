@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.themer.settings
+package dev.justcryen.aliucordplugs.themer.settings
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -17,8 +17,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.aliucord.Utils
 import com.aliucord.fragments.ConfirmDialog
 import com.aliucord.fragments.SettingsPage
-import dev.vendicated.aliucordplugs.themer.Theme
-import dev.vendicated.aliucordplugs.themer.settings.editor.ThemeEditor
+import dev.justcryen.aliucordplugs.themer.Theme
+import dev.justcryen.aliucordplugs.themer.settings.editor.ThemeEditor
 
 class ThemeAdapter(private val fragment: SettingsPage, private val themes: MutableList<Theme>) : RecyclerView.Adapter<ThemeViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = ThemeViewHolder(this, ThemeCard(parent.context))

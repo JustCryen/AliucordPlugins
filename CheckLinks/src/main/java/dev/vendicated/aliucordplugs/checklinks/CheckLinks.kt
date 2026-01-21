@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.checklinks
+package dev.justcryen.aliucordplugs.checklinks
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -29,7 +29,7 @@ import com.aliucord.patcher.Hook
 import com.aliucord.utils.DimenUtils
 import com.discord.app.AppDialog
 import com.lytefast.flexinput.R
-import dev.vendicated.aliucordplugs.checklinks.*
+import dev.justcryen.aliucordplugs.checklinks.*
 import java.lang.reflect.Method
 import java.util.*
 

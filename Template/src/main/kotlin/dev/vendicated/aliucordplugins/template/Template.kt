@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugins.template
+package dev.justcryen.aliucordplugins.template
 
 import android.content.Context
 import com.aliucord.annotations.AliucordPlugin

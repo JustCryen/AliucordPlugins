@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.themer.settings.editor
+package dev.justcryen.aliucordplugs.themer.settings.editor
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -22,11 +22,11 @@ import com.aliucord.utils.MDUtils
 import com.aliucord.views.*
 import com.discord.utilities.color.ColorCompat
 import com.lytefast.flexinput.R
-import dev.vendicated.aliucordplugs.themer.*
-import dev.vendicated.aliucordplugs.themer.settings.ThemerSettings
-import dev.vendicated.aliucordplugs.themer.settings.editor.tabs.*
-import dev.vendicated.aliucordplugs.themer.settings.editor.tabs.color.ColorDialogType
-import dev.vendicated.aliucordplugs.themer.settings.editor.tabs.color.ColorTab
+import dev.justcryen.aliucordplugs.themer.*
+import dev.justcryen.aliucordplugs.themer.settings.ThemerSettings
+import dev.justcryen.aliucordplugs.themer.settings.editor.tabs.*
+import dev.justcryen.aliucordplugs.themer.settings.editor.tabs.color.ColorDialogType
+import dev.justcryen.aliucordplugs.themer.settings.editor.tabs.color.ColorTab
 import org.json.JSONObject
 
 class ThemeEditor(private val theme: Theme) : SettingsPage() {

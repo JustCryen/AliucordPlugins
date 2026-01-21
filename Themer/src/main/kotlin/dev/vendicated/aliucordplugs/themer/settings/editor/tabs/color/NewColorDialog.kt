@@ -8,7 +8,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-package dev.vendicated.aliucordplugs.themer.settings.editor.tabs.color
+package dev.justcryen.aliucordplugs.themer.settings.editor.tabs.color
 
 import android.annotation.SuppressLint
 import android.app.Dialog
@@ -33,7 +33,7 @@ import com.aliucord.views.*
 import com.aliucord.views.Button
 import com.aliucord.widgets.BottomSheet
 import com.lytefast.flexinput.R
-import dev.vendicated.aliucordplugs.themer.logger
+import dev.justcryen.aliucordplugs.themer.logger
 
 enum class ColorDialogType {
     SIMPLE_COLORS,

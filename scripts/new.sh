@@ -7,7 +7,7 @@ first_char="$(printf %.1s "$name")"
 [ "$(echo "$first_char"  | tr "[:lower:]" "[:upper:]")" != "$first_char" ] && { >&2 echo "Name must be PascalCase"; exit 1; }
 
 pkg="$(echo "$name" | tr "[:upper:]" "[:lower:]")"
-d="$name/src/main/kotlin/dev/vendicated/aliucordplugins"
+d="$name/src/main/kotlin/dev/justcryen/aliucordplugins"
 new="$d/$pkg/$name.kt"
 
 set -x
