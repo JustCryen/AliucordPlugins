@@ -1,4 +1,4 @@
-# Brainfuck - [Download](https://github.com/Vendicated/AliucordPlugins/blob/builds/Brainfuck.zip?raw=true)
+# Brainfuck - [Download](https://github.com/JustCryen/AliucordPlugins/blob/builds/Brainfuck.zip?raw=true)
 
 Brainfuck is an extremely minimal esoteric programming language with only 8 instructions:
 - `>`

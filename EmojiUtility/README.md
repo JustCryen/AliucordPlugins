@@ -1,4 +1,4 @@
-# EmojiUtility - [Download](https://github.com/Vendicated/AliucordPlugins/blob/builds/EmojiUtility.zip?raw=true)
+# EmojiUtility - [Download](https://github.com/JustCryen/AliucordPlugins/blob/builds/EmojiUtility.zip?raw=true)
 
 Adds lots of emoji utilities. All features are enabled by default but toggleable in the plugin settings.
 

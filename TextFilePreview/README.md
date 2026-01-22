@@ -1,4 +1,4 @@
-# TextFilePreview - [Download](https://github.com/Vendicated/AliucordPlugins/blob/builds/TextFilePreview.zip?raw=true)
+# TextFilePreview - [Download](https://github.com/JustCryen/AliucordPlugins/blob/builds/TextFilePreview.zip?raw=true)
 
 Adds previews to text file embeds.
 

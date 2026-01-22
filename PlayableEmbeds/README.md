@@ -1,4 +1,4 @@
-# PlayableEmbeds - [Download](https://github.com/Vendicated/AliucordPlugins/blob/builds/PlayableEmbeds.zip?raw=true)
+# PlayableEmbeds - [Download](https://github.com/JustCryen/AliucordPlugins/blob/builds/PlayableEmbeds.zip?raw=true)
 
 Makes Youtube and Spotify embeds playable directly inside Discord.
 

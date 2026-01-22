@@ -1,4 +1,4 @@
-# MessageLinkEmbeds - [Download](https://github.com/Vendicated/AliucordPlugins/blob/builds/MessageLinkEmbeds.zip?raw=true)
+# MessageLinkEmbeds - [Download](https://github.com/JustCryen/AliucordPlugins/blob/builds/MessageLinkEmbeds.zip?raw=true)
 
 Embeds discord message links
 

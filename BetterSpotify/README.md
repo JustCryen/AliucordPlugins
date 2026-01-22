@@ -1,4 +1,4 @@
-# BetterSpotify - [Download](https://github.com/Vendicated/AliucordPlugins/blob/builds/BetterSpotify.zip?raw=true)
+# BetterSpotify - [Download](https://github.com/JustCryen/AliucordPlugins/blob/builds/BetterSpotify.zip?raw=true)
 
 Better Spotify integration.
 

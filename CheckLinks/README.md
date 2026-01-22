@@ -1,4 +1,4 @@
-# CheckLinks - [Download](https://github.com/Vendicated/AliucordPlugins/blob/builds/CheckLinks.zip?raw=true)
+# CheckLinks - [Download](https://github.com/JustCryen/AliucordPlugins/blob/builds/CheckLinks.zip?raw=true)
 
 Simple plugin that checks links using the VirusTotal api and shows the result in the "Are you sure you want to open this link" modal
 

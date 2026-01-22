@@ -1,4 +1,4 @@
-# DedicatedPluginSettings - [Download](https://github.com/Vendicated/AliucordPlugins/blob/builds/DedicatedPluginSettings.zip?raw=true)
+# DedicatedPluginSettings - [Download](https://github.com/JustCryen/AliucordPlugins/blob/builds/DedicatedPluginSettings.zip?raw=true)
 
 Adds a dedicated plugin settings category in the settings page right below Aliucord's settings.
 

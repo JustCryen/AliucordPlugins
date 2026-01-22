@@ -1,4 +1,4 @@
-# GatewayLog - [Download](https://github.com/Vendicated/AliucordPlugins/blob/builds/GatewayLog.zip?raw=true)
+# GatewayLog - [Download](https://github.com/JustCryen/AliucordPlugins/blob/builds/GatewayLog.zip?raw=true)
 
 Logs all gateway messages to log files in Aliucord folder. 
 

@@ -1,4 +1,4 @@
-# UrbanDictionary - [Download](https://github.com/Vendicated/AliucordPlugins/blob/builds/UrbanDictionary.zip?raw=true)
+# UrbanDictionary - [Download](https://github.com/JustCryen/AliucordPlugins/blob/builds/UrbanDictionary.zip?raw=true)
 
 Usage:
 ```

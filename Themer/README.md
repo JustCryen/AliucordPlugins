@@ -1,4 +1,4 @@
-# Themer - [Download](https://github.com/Vendicated/AliucordPlugins/blob/builds/Themer.zip?raw=true)
+# Themer - [Download](https://github.com/JustCryen/AliucordPlugins/blob/builds/Themer.zip?raw=true)
 
 Custom Themes!
 
@@ -24,7 +24,7 @@ Simply open the plugin settings, click new theme and go crazy! Check the pins in
 
 ⚠️ Requires you to enable "Full Transparency" in the plugin settings
 
-[Download](https://cdn.discordapp.com/attachments/852332951542956052/887844412745482310/Firefly.json) | [Source](https://raw.githubusercontent.com/Vendicated/AliucordPlugins/main/Themer/Firefly.json)
+[Download](https://cdn.discordapp.com/attachments/852332951542956052/887844412745482310/Firefly.json) | [Source](https://raw.githubusercontent.com/JustCryen/AliucordPlugins/main/Themer/Firefly.json)
 
 ![](https://cdn.discordapp.com/attachments/852332951542956052/887844097367359528/Screenshot_20210916-010358.png)
 ![](https://cdn.discordapp.com/attachments/852332951542956052/887844110860431450/Screenshot_20210916-010234.png)
